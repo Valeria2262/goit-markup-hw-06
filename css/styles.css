@@ -191,6 +191,28 @@ button {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) {
+  .header-menu-button {
+    display: none;
+  }
+
+  .ul-address {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .header-menu-button {
+    display: none;
+  }
+
+  .ul-address {
+    display: flex;
+  }
+
+  .address {
+  }
+}
 
 /* END Header */
 
